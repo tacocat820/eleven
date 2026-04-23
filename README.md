@@ -12,3 +12,5 @@ tested on an https://conduit.rs/ server
 
 
 made without using ai
+
+P.S. this only works on servers that support the identity service API version 3
