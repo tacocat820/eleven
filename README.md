@@ -1,2 +1,10 @@
 # eleven
-a static website for creating a matrix account
+a simple static website for creating matrix accounts using api v3 
+
+
+for now only works for simple servers that only have verification via a token 
+
+i think i'll implement a bit more things soon
+
+
+tested on a https://conduit.rs/ server

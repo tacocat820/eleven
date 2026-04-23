@@ -1,0 +1,154 @@
+html {
+    font-family: "KaTeX_AMS";
+    background: url("/assets/bg.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+.authp {
+    background-color: rgba(0,0,0,.59);
+    backdrop-filter: blur(8px);
+    border-radius: 30px;
+    position: absolute;
+    width: 1000px;
+    max-width: 95%;
+    height: 50%;
+    min-height: 590px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: #ffffff;
+
+    justify-content: space-between;
+    display: flex;
+}
+.sl {
+    justify-content: space-between;
+    display: flex;
+    height: 30px;
+    color: #a2a2a2;
+}
+input {
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    width: 250px;
+    animation-duration: 0.5s;
+    transition-duration: 0.5s;
+    outline: none;
+
+    background-color: transparent;
+    color: #ccc;
+    width: 100%;
+    
+}
+.p_up {
+    margin-top: 0px;
+}
+input::selection {
+    background-color: #37f66d8a;
+}
+input:focus:not(.good):not(.bad):not(.thinking) {
+    border: 2px solid #37b3f6;
+}
+.field_div label {
+    left: 0;
+    margin: 7px 8px;
+    max-width: calc(100% - 20px);
+    overflow: hidden;
+    padding: 2px;
+    pointer-events: none;
+    position: absolute;
+    font-size: .625rem;
+    padding: 0 2px;
+    pointer-events: auto;
+    transform: translateY(-13px);
+    background-color: #101317;
+}
+.field_div {
+    padding: 5px;
+    display: flex;
+    border-radius: 8px;
+    flex: 1;
+    margin-top: 2%;
+    min-width: 0;
+    position: relative;
+    transition: border-color .25s;
+    height: 35px;
+}
+
+.server_field {
+    width: 60%;
+}
+.h {
+    padding-left: 20px;
+    padding-top: 7px;
+}
+.sh {
+    padding-left: 20px;
+    padding-top: 7px;
+}
+
+.authl {
+    justify-content: left;
+    max-width: 40%;
+}
+.authb {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    background-color: #101317;
+    padding: 25px 60px;
+    width: 50%;
+    max-width: 500px;
+    justify-content: right;
+}
+
+
+.bad {
+    border: 2px solid #f63737;
+}
+.thinking {
+    border: 2px solid #f6f037;
+}
+.good {
+    border: 2px solid #37f66d;
+}
+
+
+button {
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    width: 250px;
+    animation-duration: 0.5s;
+    transition-duration: 0.5s;
+    outline: none;
+
+    background-color: transparent;
+    color: #ccc;
+    width: 100%;
+    
+}
+button:focus {
+    border: 2px solid #37b3f6;
+}
+
+button:hover {
+    cursor: pointer;
+    border: 2px solid #37b3f6;
+}
+
+
+.icon {
+    
+    width: 100%;
+    max-width: 500px;
+    padding-top: 50px;
+
+    outline: #ffffff35;
+
+    border-radius: 100%;
+
+}

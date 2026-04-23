@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/style.css">
+    <title>сервер</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <script src="/script.js"></script>
+    <div class="authp">
+      <div class="authl">
+        <!--<img src="/assets/logo.png" class="icon"> not now-->
+      </div>
+      <div class="authb" id="authb">
+        <h1 class="h">Create a Matrix account</h1>
+        <hr><br>
+        <div class="sl"><p class="p_up">Host account on...</p> <input type="text" class="server_field" id="server" oninput="checkServerTimeout()"> </br></div>
+        <br><hr><br>
+        <div class="field_div">
+            <input type="text" id="username" oninput="checkUsernameTimeout()" class="field"> </br>
+            <label for="username">Username</label>
+        </div>
+        <div class="sl">
+            <div class="field_div">
+                <input type="password" id="passwd" oninput="passwdDone()" class="field"> </br>
+                <label for="passwd">Password</label>
+            </div>
+            <div class="field_div">
+                <input type="password" id="confirm_passwd" oninput="checkPasswdTimeout()" class="field"> </br>
+                <label for="confirm_passwd">Confirm password</label>
+            </div>
+        </div>
+        <br><br><hr><br>
+        <button onclick="tryAuth()"> asdasd</button>
+
+      </div>
+    </div>
+  </body>
+</html>
