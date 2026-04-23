@@ -9,7 +9,7 @@ for now only works for simple servers that only have verification via a token
 i think i'll implement a bit more things soon
 
 
-tested on an https://conduit.rs/ server
+tested on a https://conduit.rs/ server
 
 
 
