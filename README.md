@@ -11,4 +11,4 @@ tested on an https://conduit.rs/ server
 
 
 
-made with no ai
+made without using ai
